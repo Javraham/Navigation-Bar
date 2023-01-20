@@ -1,0 +1,31 @@
+nav{
+    background-color: rgb(174, 9, 9);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+li{
+    list-style: none;
+    padding: 1em;
+}
+
+li:not(:last-of-type){
+    border-right: 3px solid white;
+}
+
+li:hover{
+    background-color: #b90e4d;
+    cursor: pointer;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styleNavbar.css">
+    <title>Navigation Bar</title>
+</head>
+
+<body>
+    <script src = "visibility.js"></script>
+    <nav id = "demo"> 
+        <ul>
+            <li><a href = "#home" onclick="toggleVisibility('home')">Home</a></li>
+            <li><a href = "#about" onclick="toggleVisibility('about')">About</a></li>
+            <li><a href = "#proj" onclick="toggleVisibility('proj')">Projects</a></li>
+            <li><a href = "#work" onclick="toggleVisibility('work')">Work</a></li>
+        </ul>
+
+        <ul>
+            <li><a href = "#contact" onclick="toggleVisibility('contact')">Contact Us</a></li>
+            <li><a href = "#help" onclick="toggleVisibility('help')">Help</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <section id = 'home' style = "display:block;">
+            hello my name is jonathan 
+        </section>
+        <section id = 'about' style = "display: none;">
+            hello my name is daniel
+        </section>
+    </article>
+</body>
